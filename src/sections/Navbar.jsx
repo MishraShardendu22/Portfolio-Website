@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import PropTypes from 'prop-types';
 import { navLinks } from "../constants/index.js";
-import { Menu, X, Github, Home, User, Briefcase, Mail } from "lucide-react";
+import { Menu, X, Github, Home, User, Briefcase, Mail, Download } from "lucide-react";
 import axios from 'axios';
 
 const getIcon = (name) => {
@@ -15,6 +15,8 @@ const getIcon = (name) => {
       return <Briefcase size={20} className="mr-2" />;
     case 'contact':
       return <Mail size={20} className="mr-2" />;
+    case 'resume':
+      return <Download size={20} className="mr-2" />;
     default:
       return null;
   }
@@ -26,7 +28,7 @@ const NavItems = ({ onClick = () => {} }) => {
       {navLinks.map((item) => (
         <li key={item.id}>
           <a
-            href={item.href} // Changed 'to' to 'href'
+            href={item.href}
             onClick={onClick}
             className="flex items-center text-gray-300 hover:text-yellow-500 transition-colors py-2 px-3 rounded-md hover:bg-gray-700 text-sm font-medium"
           >
