@@ -3,8 +3,8 @@
 Welcome to my portfolio website showcasing the projects I have worked on! This site was built using **Vite**, **React**, **Tailwind CSS**, **Three.js**, and **EmailJS** for contact forms.
 
 ## 🚀 Live Demo
-New - [mishrashardendu22.is-a.dev](https://mishrashardendu22.is-a.dev/)
-Old - Check out the live version here: [Portfolio Website](https://shardendu-mishra-portfolio-website.vercel.app/)
+- New - [mishrashardendu22.is-a.dev](https://mishrashardendu22.is-a.dev/)
+- Old - Check out the live version here: [Portfolio Website](https://shardendu-mishra-portfolio-website.vercel.app/)
 
 ## 🛠️ Tech Stack
 
